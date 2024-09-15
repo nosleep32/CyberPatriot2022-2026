@@ -1,0 +1,13 @@
+https://www.microsoft.com/en-us/download/details.aspx?id=55319
+for LGPO download plus drag LGPO.exe to system32
+- extract export.zip
+- put export folder into C:\
+open cmd with admin
+MAKE SURE CD IS CHANGED TO THE EXPORT
+run LGPO.exe /g C:\export
+
+PowerShell scripts:
+Use
+Set-ExecutionPolicy Unrestricted
+first
+then cd to the path of the ps1 file
